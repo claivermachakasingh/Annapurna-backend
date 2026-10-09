@@ -1,0 +1,1 @@
+ALTER TABLE surplus_batches ADD COLUMN quantity_unit text NOT NULL DEFAULT 'kg';

@@ -1,0 +1,32 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Environment variables
+.env
+!.env.example
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing and coverage
+*.out
+*.test
+
+# Go workspace files (machine-local mirrors / overrides)
+go.work
+go.work.sum
+go.sandbox.mod
+go.sandbox.sum
+
+# Local runtime state
+storage/uploads/*
+!storage/uploads/.gitkeep
+*.log

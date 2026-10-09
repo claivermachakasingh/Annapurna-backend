@@ -1,0 +1,1 @@
+ALTER TABLE surplus_batches DROP COLUMN quantity_unit;

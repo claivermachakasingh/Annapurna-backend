@@ -1,0 +1,22 @@
+﻿{
+  "version": "cv-v1",
+  "server": {
+    "url": "/static/bundles/cv/cv-v1/model_int8.onnx",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "device": {
+    "url": "/static/bundles/cv/cv-v1/model_int8.tflite",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 5200000
+  },
+  "thresholds": {
+    "blur_laplacian_min": 100.0,
+    "luminance_min": 40.0,
+    "luminance_max": 220.0
+  },
+  "preprocess": {
+    "input_size": 224,
+    "scale": 0.007843137,
+    "zero_point": -1
+  }
+}

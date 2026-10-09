@@ -1,0 +1,15 @@
+DROP INDEX IF EXISTS waste_kitchen_recorded_idx;
+DROP INDEX IF EXISTS route_stops_route_idx;
+DROP INDEX IF EXISTS routes_batch_idx;
+DROP INDEX IF EXISTS matches_expiry_idx;
+DROP INDEX IF EXISTS matches_recipient_status_idx;
+DROP INDEX IF EXISTS matches_batch_idx;
+DROP INDEX IF EXISTS surplus_created_idx;
+DROP INDEX IF EXISTS surplus_expiry_idx;
+DROP INDEX IF EXISTS surplus_kitchen_status_idx;
+DROP INDEX IF EXISTS surplus_status_idx;
+DROP INDEX IF EXISTS meals_kitchen_date_idx;
+DROP INDEX IF EXISTS recipients_active_idx;
+DROP INDEX IF EXISTS kitchens_org_idx;
+DROP INDEX IF EXISTS users_role_active_idx;
+DROP INDEX IF EXISTS users_email_lower_key;

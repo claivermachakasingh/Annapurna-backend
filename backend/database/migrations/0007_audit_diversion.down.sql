@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS diversions;
+DROP TABLE IF EXISTS audit_log;
